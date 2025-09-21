@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="detail-inner">
+                        <h1>Khelaiya Pass Generator</h1>
+                        <div class="input-group">
+                            <label for="passType">Select Pass Type: </label>
+                            <select id="passType">
+                                <option value="Dholidassss">Dholidassss</option>
+                                <option value="Swarnim">Swarnim</option>
+                                <option value="We One">We One</option>
+                                <option value="Mannat GROUP">Mannat GROUP</option>
+                                <option value="BEYOND (WEONE) Family">BEYOND (WEONE) Family</option>
+                                <option value="GOLD KHELAIYA GROUP">GOLD KHELAIYA GROUP</option>
+                                <option value="Black Berry Group">Black Berry Group</option>
+                                <option value="Dholidass(Raas Rhythm)">Dholidass(Raas Rhythm)</option>
+                                <option value="Kevin's Thanganat Group">Kevin's Thanganat Group</option>
+                                <option value="WEONE GROUP Sponsor">WEONE GROUP Sponsor</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="name">Name: </label>
+                            <input type="text" id="name" placeholder="Enter Name">
+                        </div>
+                        <div class="input-group">
+                            <label for="passId">ID: </label>
+                            <input type="text" id="passId" placeholder="Enter ID">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="mobile">Mobile: </label>
+                            <input type="text" id="mobile" placeholder="Enter Mobile">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="imageUpload">Upload Image: </label>
+                            <input type="file" id="imageUpload" accept="image/*">
+                        </div>
+
+                        <button onclick="generatePass()">Generate Pass</button>
+                    </div>
+                </div>
+                <div class="col-6 canvas_box">
+                    <div class="input-group canvas_content">
+                        <canvas id="passCanvas" width="400" height="600"></canvas>
+                        <button onclick="downloadPass()">Download Pass</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

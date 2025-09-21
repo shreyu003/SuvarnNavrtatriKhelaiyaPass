@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+}
+canvas {
+    border: 1px solid #000;
+}
+.input-group {
+    margin: 20px 0;
+}
+.canvas_box{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+}
+.canvas_content{
+    display: flex;
+    flex-direction: column;
+}
+.canvas_content button{
+    width: fit-content;
+    margin-top: 20px;
+}
+.detail-inner{
+    text-align-last: left;
+}
