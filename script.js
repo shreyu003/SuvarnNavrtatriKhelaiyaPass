@@ -11,16 +11,15 @@ document.getElementById('imageUpload').addEventListener('change', function (even
 // Map each group to its background image
 const backgrounds = {
     "Dholidassss": "./images/dholidassss.png",
-    "Swarnim": "./images/swarnim.png",
-    "We One": "./images/weone.png",
-    "Mannat GROUP": "./images/mannat.png",
-    "BEYOND (WEONE) Family": "./images/beyond_weone.png",
-    "GOLD KHELAIYA GROUP": "./images/gold_khelaiya.png",
-    "Black Berry Group": "./images/blackberry.png",
-    "Dholidass(Raas Rhythm)": "./images/raas_rhythm.png",
-    "Kevin's Thanganat Group": "./images/kevin.png",
-    "WEONE GROUP Sponsor": "./images/weone_sponsor.png",
-    "KeMo's GARBA GROOVES": "./images/kemo.png"
+    "Swarnim": "./images/swarnim.jpg",
+    "We One": "./images/weone.jpg",
+    "Mannat GROUP": "./images/mannat.jpg",
+    "BEYOND (WEONE) Family": "./images/beyond_weone.jpg",
+    "GOLD KHELAIYA GROUP": "./images/gold_khelaiya.jpg",
+    "Black Berry Group": "./images/blackberry.jpg",
+    "Dholidass(Raas Rhythm)": "./images/raas_rhythm.jpg",
+    "Kevin's Thanganat Group": "./images/kevin.jpg",
+    "WEONE GROUP Sponsor": "./images/weone_sponsor.jpg",
 };
 
 function generatePass() {
