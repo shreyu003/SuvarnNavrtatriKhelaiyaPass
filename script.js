@@ -20,6 +20,7 @@ const backgrounds = {
     "Dholidass(Raas Rhythm)": "./images/raas_rhythm.jpg",
     "Kevin's Thanganat Group": "./images/kevin.jpg",
     "WEONE GROUP Sponsor": "./images/weone_sponsor.jpg",
+    "Happy Garba Group": "./images/happy_garba_group.jpg",
 };
 
 function generatePass() {
